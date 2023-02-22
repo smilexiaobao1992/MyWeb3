@@ -1,7 +1,7 @@
 import ReactGA from 'react-ga';
 
 export const initGA = () => {
-  ReactGA.initialize('4646189735');
+  ReactGA.initialize('G-FRQCR4TT46');
 };
 
 export const logPageView = () => {
@@ -11,5 +11,5 @@ export const logPageView = () => {
 const GaPage = () => {
     return <h1>This is your GA page</h1>;
   };
-  
+
 export default GaPage;
