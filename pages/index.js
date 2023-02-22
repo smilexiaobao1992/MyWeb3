@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Carousel from '../components/carousel'
+import Banner from '../components/banner'
 import Section from '../components/section'
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Welcome Web3</title>
       </Head>
-      <Carousel/>
+     <Banner/>
       <Section/>
       </div>
   )
