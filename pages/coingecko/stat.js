@@ -48,8 +48,8 @@ export default function Stat() {
           <td class="border px-4 py-2">{index+1}</td>
           <td class="border px-4 py-2">{category.name}</td>
           {/* <td>{category.market_cap.toFixed(2)}</td>  */}
-          <td class="border px-4 py-2">{category.market_cap_change_24h.toFixed(2)}%</td>
-          <td class="border px-4 py-2">{category.volume_24h.toFixed(2)}</td>
+          <td class="border px-4 py-2">{category.market_cap_change_24h? category.market_cap_change_24h.toFixed(2) : '-'}%</td>
+          <td class="border px-4 py-2">{category.volume_24h?category.volume_24h.toFixed(2) : '-'}</td>
           <td class="flex border px-4 py-2">
             <img src={category.top_3_coins[0]} width='30' height='30' />
             <img src={category.top_3_coins[1]} width='30' height='30' />
