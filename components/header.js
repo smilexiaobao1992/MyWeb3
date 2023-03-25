@@ -41,7 +41,7 @@ export default function MyHeader() {
         </ul>
       </div>
       <div class="navbar-end">
-        <a class="btn">braveguozhi.eth</a>
+        <Link class="btn" href="https://forms.gle/FVjzHd1fiiSVQxYEA" target="_blank">AI项目收集</Link>
       </div>
     </div>)
   }
