@@ -1,6 +1,6 @@
 export default function Banner() {
     return(
-        <div class="hero min-h-screen mt-0">
+        <div class="hero h-[60vh] mt-0">
             <div class="hero-overlay bg-opacity-60 bg-[url('../public/images/banner.jpg')]"></div>
             <div class="hero-content text-center text-neutral-content">
     <div class="max-w-md">

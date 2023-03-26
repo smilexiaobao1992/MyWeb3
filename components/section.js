@@ -4,12 +4,12 @@ export default function Section() {
     return(
         
         // 文本
-        <div class="flex justify-center mt-10">
+        <div class="flex justify-center mt-10 ">
         <div class="w-full max-w-[6*24rem]">   
-        <div class="text-left ml-2">
+        <div class="text-center ml-2 ">
           <h2 class="text-4xl">📝AI文本</h2>
         </div>
-        <div class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap justify-center bg-gradient-to-r from-cyan-500 to-blue-500">
         <div class="card w-96 bg-base-100 shadow-xl m-2 group/item hover:bg-slate-100">
             <div class="card-body">
                 <h3 class="card-title">

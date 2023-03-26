@@ -1,15 +1,14 @@
 import Link from "next/link"
 
-export default function Section1() {
+export default function SectionImage() {
     return(
-        
         // 文本
         <div class="flex justify-center mt-10">
         <div class="w-full max-w-[6*24rem]">   
-        <div class="text-left ml-2">
+        <div class="text-center ml-2">
           <h2 class="text-4xl">🎨AI绘画</h2>
         </div>
-        <div class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap justify-center bg-gradient-to-r from-sky-500 to-indigo-500">
         <div class="card w-96 bg-base-100 shadow-xl m-2">
             <div class="card-body">
                 <h3 class="card-title">
